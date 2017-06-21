@@ -1,0 +1,147 @@
+
+body{
+	background-color: gray;
+}
+
+.headerimg img {
+  float:left;
+  display:inline-block;
+  border-radius:100%;
+  margin-right:20px;
+  width:100px;
+  opacity:0.4;
+  transition:1s;
+}
+
+.headerimg img:hover {
+  opacity:1;
+}
+
+.header{
+  background-image: url("http://www.kobecreations.com/wp-content/uploads/2014/10/slider-background.jpg");
+  height: 500px;
+}
+
+.header-text{
+  
+	color: white;
+	padding-left: 50px;
+	padding-top: 150px;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: sans-serif;
+  width:100%;
+   
+}
+
+.header-subtext{
+	color: white;
+	padding-left: 150px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: sans-serif;
+ 	height:309px;
+}
+
+.button{
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.subheader{
+  height: 1000px;
+  width: 100%;
+  opacity: .8;
+  background-image: url(http://thepatternlibrary.com/img/ae.jpg);
+}
+
+.subheader-header{
+	color: white;
+	padding-left: 10px;
+	padding-top: 80px;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+.skills{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.skill-text{
+	color: white;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+ .columns {
+ 	display: flex;
+ }
+
+.navbar{
+	color: lightgray;
+	height: 45px;
+	width: 100%;
+}
+
+.nav-button{
+	background-color: white; 
+    border: none;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100px;
+}
+
+.about{
+	background-color: white;
+	height: 600px;
+	margin-top: 200px;
+
+}
+
+.bio{
+	border-style: solid;
+	float:left;
+	border-color: black
+	border-width: 50px;
+	height: 575px;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+aside{
+	border-style: solid;
+	border-color: black
+	border-width: 50px;
+	height: 575px;
+	width: 46.5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  margin-right:10px;
+  float: right;
+}
